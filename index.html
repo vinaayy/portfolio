@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+  <!--
+    - favicon
+  -->
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar >
+
+      <div class="sidebar-info" >
+
+        <figure class="avatar-box">
+          <img src="https://uploads-ssl.webflow.com/617c1ed46d1475ee654652be/617fdb997aba0aa28bed8cb2_Marshall%20.png" alt="Vinay Jain" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Vinay Jain">Vinay Jain</h1>
+
+          <p class="title">Software Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn id="contacts">
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:vinay.jain.@gmail.com" class="contact-link">vinay.jain.@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+919820727297" class="contact-link">+91 9820727297</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Mumbai , Maharashtra , India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/vinaayy" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/vinay-jain-a8b0181b1" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+
+          <li class="navbar-item">
+            <a class="navbar-link" href="#projects" data-nav-link>Project</a>
+          </li>
+
+          <li class="navbar-item">
+            <a class="navbar-link" href="#work" data-nav-link>Work</a>
+          </li>
+
+          <li class="navbar-item">
+            <a class="navbar-link" href="#skills"  data-nav-link>Skill</a>
+          </li>
+
+          <li class="navbar-item">
+            <a class="navbar-link" href="#education" data-nav-link>Education</a>
+          </li>
+
+          <li class="navbar-item">
+            <a class="navbar-link" href="#certifications" data-nav-link >Certifications</a>
+          </li>
+
+          <li class="navbar-item">
+            <a class="navbar-link" href="#contacts" data-nav-link >Contact</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title" id="about">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Hi there , I'm <b>Vinay</b>.
+            I am a Software Engineer.
+          </p>
+
+          <p>
+            Objective:
+To obtain a software engineer position in a challenging and dynamic environment where I can utilize my technical skills and knowledge to contribute to the success of the company.
+</p>
+<b><a href="https://drive.google.com/file/d/1_B0w58itjOape2fR8cwb3HpEup8HmrYW/view?usp=drivesdk"><button style="background-color:var(--orange-yellow-crayola); color:black; font-size: 20px; padding:5px 20px 5px 20px; border-radius: 10px;"> <i class="fa fa-download"></i> Resume</button>
+  </a> </b> <br>
+      </section>
+
+
+        <!--
+          - service
+        -->
+        <section class="testimonials" id="work">
+
+          <header>
+            <h2 class="h2 article-title" id="about">Work Experience</h2>
+          </header>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/download-1.48c10be7-acbf-43f4-b239-d7d3c4323558" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title     style="color: var(--orange-yellow-crayola)">Software Engineer</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                    <p>Monocept       08/2022 - Present <br>
+                      - Building stable and maintainable codebases using C# , .Net and Angular.<br>
+                      - Developed , Tested , Debugged , Maintained and supported Web Application for client.<br>
+                      - Trouble-shot and fixed many thread of bugs.<br>
+                      - Updated and managed existing products and provided beneficial technical support.<br>
+                      - Received Certificate of Appreciation for contributing to a major project milestone.<br>
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+
+          </ul>
+
+        </section>
+
+        
+
+
+        <section class="service" id="projects">
+
+          <header>
+            <h2 class="h2 article-title" id="about">Personal Projects</h2>
+          </header>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="https://icons.veryicon.com/png/128/emoticon/number/1-yellow.png
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mumbai Metro</h4>
+
+                <p class="service-item-text">
+                  <b>- Won First prize in Contrivance 2020</b> at Saraswati college of engineering<br>- 
+Built a website on Mumbai metro where commuters can book tickets, search routes, recharge
+passes and access other metro facilities.<br>- 
+The website was dynamic and responsive with easy interface and had a database
+connectivity.<br>- 
+HTML, CSS, JavaScript, PHP, and some APIs were used for displaying weather, maps, etc
+
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="https://icons.veryicon.com/png/o/emoticon/number/2-yellow.png" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">ML based Crop Solution</h4>
+
+                <p class="service-item-text">
+                  - This project consist of three modules.<br>- In first module the system uses location api and
+suggests crops accordingly.<br>- The second module is Disease Detection , the system uses CNN
+algorithm for image processing on crop leaf to detect disease.<br>- In third module we provide a
+platform for farmer vendor Interaction.
+
+                </p>
+              </div>
+</li>
+          </ul>
+
+        </section>
+
+        <p class="text-white p-1 font-light mt-4 text-center">To view more of my work, Visit <a href="https://github.com/starc007" target="_blank" class="text-white  underline font-semibold text-xl">Github.</a></p>
+<br>
+<br>
+        <!--
+          - testimonials
+        -->
+
+       
+
+
+        <!--
+          - testimonials modal
+        -->
+
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients" id="skills">
+
+          <header>
+            <h2 class="h2 article-title" id="about">Skills</h2>
+          </header>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+                <img src="https://cdn-icons-png.flaticon.com/512/6132/6132221.png" alt="client logo">
+            </li>
+
+            <li class="clients-item">
+                <img src="https://angular.io/assets/images/logos/angularjs/AngularJS-Shield.svg" alt="client logo">
+         
+            </li>
+
+            <li class="clients-item">
+                <img src="https://icons-for-free.com/download-icon-development+logo+mysql+icon-1320184807686758112_512.png" alt="client logo">
+         
+            </li>
+
+            <li class="clients-item">
+                <img src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_html_icon_130541.png" alt="client logo">
+             
+            </li>
+
+            <li class="clients-item">
+                <img src="https://ultimatecourses.com/assets/category/css-fcba6b473cb1125595dc28163be24eb673907258b5f6f6c82967a0587a9df20c.svg" alt="client logo">
+       
+            </li>
+
+          </ul>
+
+        </section>
+        <br>
+
+        <section class="service" id="education" style="align-content: center;">
+
+          <<header>
+            <h2 class="h2 article-title" id="about">Education</h2>
+          </header>
+  
+          <ul >
+  
+            <li class="service-item">
+  
+              
+  
+              <div class="service-content-box" style="text-align: left">
+                <h4 class="h4 service-item-title">Saraswati College of Engineering</h4>
+  
+                <p class="service-item-text" >
+                  Bachelor of Engineering - 2022
+  
+                </p>
+                <br>
+                <h4 class="h4 service-item-title">Patuch Junior College</h4>
+  
+                <p class="service-item-text" >
+                  Science - 2018
+  
+                </p>
+                <br>
+                <h4 class="h4 service-item-title">St. Mary's High School</h4>
+  
+                <p class="service-item-text" >
+                  2016
+  
+                </p>
+              </div>
+  
+            </li>
+  
+            
+  
+          </ul>
+  
+        </section>
+
+
+
+        <section class="service" id="certifications" style="align-content: center;">
+
+          <header>
+            <h2 class="h2 article-title" id="about">Certifications</h2>
+          </header>
+  
+          <ul >
+  
+            <li class="service-item">
+  
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+  
+              <div class="service-content-box" style="text-align: left">
+                <h4 class="h4 service-item-title">Certificate in Enterprise Web development - DotNet</h4>
+  
+                <p class="service-item-text" >
+                  Swabhav TechLabs - Issued August 2022
+  
+                </p>
+                <br>
+                <h4 class="h4 service-item-title">Python</h4>
+  
+                <p class="service-item-text" >
+                  University of Michigan - Issued July 2020
+  
+                </p>
+                <br>
+                <h4 class="h4 service-item-title">AI</h4>
+  
+                <p class="service-item-text" >
+                  Huawei - Issued Feb 2020
+  
+                </p>
+              </div>
+  
+            </li>
+  
+            
+  
+          </ul>
+  
+        </section>
+        
+      </article>
+
+
+      
+
+      
+      
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
